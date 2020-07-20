@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+
 public class FileStorage {
     private ArrayList<File> files = new ArrayList<>();
     private double availableSize = 100;

@@ -13,7 +13,6 @@ import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
 
-
 public class FileStorageTest {
 
     @Test
@@ -148,7 +147,7 @@ public class FileStorageTest {
        public void getFileTestNull() throws FileNameAlreadyExistsException {
            FileStorage testStorage = new FileStorage();
            String filename = "TEST.txt";
-           String filenameNotExist = "ZTESTNOT.txt";
+           String filenameNotExist = "ZTESTNOTES.txt";
            String content = "TESTupTEST";
 
            File file = new File(filename,content);
