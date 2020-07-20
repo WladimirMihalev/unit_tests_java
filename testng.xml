@@ -1,0 +1,7 @@
+<suite name="File Storage Tests" verbose="1">
+    <test name="File Storage Tests">
+        <classes>
+            <class name="test.test.FileStorageTest"/>
+        </classes>
+    </test>
+</suite>
